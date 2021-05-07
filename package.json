@@ -34,7 +34,8 @@
     "build": "react-scripts build",
     "test": "CI=true react-scripts test --env=./src/__test__/custom-test-env.js",
     "test:coverage": "npm test -- --coverage",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "serve -s build"
   },
   "eslintConfig": {
     "extends": "react-app"
